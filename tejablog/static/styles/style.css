@@ -46,6 +46,8 @@ a{
     background-color: var(--bg);
     flex-wrap: wrap;
     margin-bottom: 24px;
+    padding: 16px;
+    box-shadow: 0 0 10px 4px var(--bgSoft)
 }
 
 .logo{
@@ -53,7 +55,10 @@ a{
     font-size: 28px;
     letter-spacing: 5px;
 }
-
+.logoDesc{
+    margin-top: 8px;
+    font-size: 12px;
+}
 .links{
     display: flex;
     gap: 20px;
@@ -201,13 +206,15 @@ pre{
 }
 
 @media (max-width: 768px) {
-    .navbar{
+    /* .navbar{
         padding: 8px 0;
-    }
+    } */
     .listItem{
         flex-direction: column;
         gap:10px;
         align-items: flex-start;
     }
- 
+    .logoDesc{
+        display: none;
+    }
 }
