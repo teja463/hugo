@@ -7,7 +7,7 @@ image = "/images/5s.webp"
 imageBig = "/images/5b.webp"
 categories = ["general", "liferay"]
 authors = ["Teja P"]
-avatar = "/images/avatar.webp"
+avatar = "/images/avatar.jpg"
 +++
 
 # Users And Permissions

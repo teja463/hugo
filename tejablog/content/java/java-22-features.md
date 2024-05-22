@@ -7,7 +7,7 @@ image = "/images/5s.webp"
 imageBig = "/images/5b.webp"
 categories = ["general", "java"]
 authors = ["Teja P"]
-avatar = "/images/avatar.webp"
+avatar = "/images/avatar.jpg"
 +++
 
 # Java 22 Features
