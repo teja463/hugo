@@ -10,12 +10,12 @@
   
     {{ range .Paginator.Pages }}
     <div class="listItem">
-        <img
+        <a href={{.Permalink}}><img
         src="{{.Params.image}}"
         alt="{{.Title}}"
         loading="lazy"
         class="listItemImage"
-        />
+        /></a>
         <div class="listItemTexts">
         <h1><a href="{{.Permalink}}">{{.Title}}</a></h1>
         <p>{{.Params.description}}</p>
