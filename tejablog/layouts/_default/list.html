@@ -6,7 +6,7 @@
             <img src={{.Params.image}} alt={{.Title}} loading="lazy" class="listItemImage"/>
             <div class="listItemTexts">
                 <h1><a href={{.Permalink}}>{{.Title}}</a></h1>
-                <p>{{.Params.description}}</p>
+                {{/*  <p>{{.Params.description}}</p>  */}}
                 <div class="listItemDetail">
                     <img src={{.Params.avatar}} alt="avatar" class="listItemAvatar"/>
                     <span></span>{{ range (.GetTerms "authors") }}

@@ -10,8 +10,6 @@ body.light{
     --text: #0b1529;
 }
 
-
-
 *{
     margin: 0;
     box-sizing: border-box;
@@ -111,6 +109,9 @@ a{
     padding-bottom: 32px;
 }
 
+.singleHead{
+    margin-bottom: 32px;
+}
 .singleContent{
     line-height: 32px;
 }
@@ -197,4 +198,16 @@ pre{
 
 pre{
     overflow: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        padding: 8px 0;
+    }
+    .listItem{
+        flex-direction: column;
+        gap:10px;
+        align-items: flex-start;
+    }
+ 
 }
